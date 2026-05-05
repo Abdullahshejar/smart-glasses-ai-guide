@@ -1,17 +1,23 @@
-# smartglasses_app
 
-A new Flutter project.
+# Smart Glasses AI Museum Guide
 
-## Getting Started
+## Overview
+AI-powered wearable system that identifies paintings in real time and provides audio explanations through a mobile app.
 
-This project is a starting point for a Flutter application.
+## System Pipeline
+Raspberry Pi Camera → Mobile App → AI Model → Backend → Audio Output
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
+- Flutter (Mobile App)
+- YOLOv8 ONNX (Object Detection)
+- Python / Flask (Backend)
+- Raspberry Pi Camera
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
+- Real-time object recognition
+- AI-generated explanations
+- Voice output (Text-to-Speech)
+- Multi-device integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Status
+Working prototype tested in real environment. Improvements ongoing for latency and performance.
